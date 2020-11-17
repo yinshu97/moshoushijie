@@ -1,0 +1,680 @@
+* {}
+
+body {
+	background-image: url(../img/shop-bg_top.png);
+	background-repeat: no-repeat;
+	background-size: 230% auto;
+	background-position: -600px 0px;
+}
+
+.header {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+a {
+	color: darkgray;
+	text-align: center;
+}
+
+
+/*内容*/
+
+.container {
+	width: 100%;
+	max-width: 1700px;
+	min-width: 1200px;
+	/*height:3995px;*/
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	background: rgb(0, 38, 80);
+}
+
+
+/*导航*/
+
+.con-nav {
+	width: 100%;
+	max-width: 1700px;
+	min-width: 1200px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	background: rgba(3, 32, 65, 0.9);
+}
+
+.con-nav a {
+	/*color: darkgrey;*/
+	line-height: 50px;
+	text-align: center;
+}
+
+.con-nav-left {
+	width: 30%;
+	height: 50px;
+	/*display: inline-block;*/
+	float: left;
+	margin-left: 20px;
+}
+
+.con-nav-left-item {
+	width: 18%;
+	height: 50px;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.con-nav-left-item:first-child {
+	width: 18%;
+}
+
+.con-nav-left-item:first-child img {
+	width: 15px;
+	margin-right: 5px;
+}
+
+.con-nav-left-item:last-child {
+	width: 22%;
+}
+
+.con-nav-right {
+	width: 50%;
+	height: 50px;
+	float: right;
+	/*display: inline-block;*/
+}
+
+.con-nav-search {
+	width: 57%;
+	height: 50px;
+	display: inline-block;
+}
+
+.con-nav-search img {
+	width: 20px;
+	position: absolute;
+	z-index: 5;
+	margin-top: 5px;
+}
+
+.con-nav-search input {
+	height: 30px;
+	width: 96%;
+	position: relative;
+	/*margin-top: -15px;*/
+	padding-left: 30px;
+	border: 1px solid gray;
+	background: rgba(0, 23, 50, 1);
+	color: whitesmoke;
+}
+
+.con-nav-list {
+	width: 13%;
+	height: 50px;
+	display: inline-block;
+	padding-left: 10px;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+.con-nav-count {
+	width: 20%;
+	height: 50px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+
+/*图片*/
+
+.container .container1 {
+	width: 100%;
+	height: 300px;
+	/*background-image: url(https://product.cnc.blzstatic.cn//5b/ff13c9a56ded0cc831df9d43e612e115-WoW_9.0_BattleNet_Shop_1600x300.jpg);*/
+}
+
+.image{
+	position: relative;
+}
+.image li{
+	width: 100%;
+	display: none;
+}
+.image .current{
+	display: block;
+}
+.btn{
+	width:100%;
+	height:55px;
+	/*margin-top:-38%;*/
+	position: absolute;
+	z-index: 5;
+}
+.left{
+	position: absolute;
+	z-index: 10;
+	top:-175px;
+	left: 10px;
+}
+.right{
+	position: absolute;
+	z-index: 10;
+	top:-175px;
+	right: 10px;
+}
+
+.cir{
+	width: 340px;
+	height:10px;
+	margin-left: 40%;
+	margin-top: -35px;
+	text-align: center;
+	/*margin: 0 auto;*/
+	position: absolute;
+}
+.cir li{
+	border-radius: 5px;
+	width: 100px;
+	height: 10px;
+	background: gray;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.cir .current{
+	border-radius: 5px;
+	width: 100px;
+	height: 10px;
+	background: gainsboro;
+	margin-left: 10px;
+}
+
+.ci1-item {
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: auto 300px;
+	background-position-x: 100%;
+}
+
+.container-item1 {
+	width: 25%;
+	height: 250px;
+	padding-top: 35px;
+	margin-left: 50px;
+	text-align: center;
+	transform: all 0.5s;
+}
+
+.container-item1 p {
+	margin-top: 10px;
+	font-size: 18px;
+	color: darkgray;
+}
+
+.container-item1 button {
+	width: 70%;
+	height: 40px;
+	background: dodgerblue;
+	border: 1px solid #00BFFF;
+	margin: 20px auto;
+}
+
+.ci1-1 {
+	background-image: url(https://product.cnc.blzstatic.cn//5b/ff13c9a56ded0cc831df9d43e612e115-WoW_9.0_BattleNet_Shop_1600x300.jpg);
+	background-size: 100% 100%;
+}
+
+.ci1-2 {
+	background-image: url(https://product.cnc.blzstatic.cn//6a/3010f6f2cf3d096a7659d76042c5dad0-WoW_9.0_Sale_WoW_Vas_Death_Knights_Battle.net_1600x300.jpg);
+background-size: 100% 100%;
+
+}
+
+
+
+.container2 {
+	width: 100%;
+	/*height:3200px;*/
+}
+
+.con2-nav {
+	width: 100%;
+	height: 45px;
+	border-top: 1px solid gray;
+}
+
+.con2-nav ul {
+	width: 100%;
+}
+
+.con2-nav ul li {
+	display: inline-block;
+	margin-right: 5px;
+	height: 30px;
+	padding-top: 10px;
+}
+
+.con2-nav-left {
+	width: 60%;
+	height: 45px;
+	float: left;
+	margin-left: 40px;
+}
+
+.con2-nav-right {
+	width: 30%;
+	height: 45px;
+	float: right;
+}
+
+.con2-nav-right label {
+	color: gainsboro;
+	margin: auto 3px;
+}
+
+.con2-nav-right select {
+	width: 110px;
+	line-height: 20px;
+	background-image: url(../img/上下.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 15px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	-webkit-appearance: none;
+	color: gainsboro;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: -3px;
+	background-color: rgba(0, 0, 0, 0.4)
+}
+
+
+/*游戏下拉*/
+
+.nav-game-content {
+	width: 115px;
+	padding-top: 10px;
+	border: 1px solid gray;
+	border-top: none;
+	position: absolute;
+	display: none;
+	z-index: 2;
+	margin-left: 100px;
+	background: rgb(27, 36, 51);
+}
+
+.ng-item {
+	padding-left: 10px;
+}
+
+.ng-item:hover {
+	background: darkgray;
+}
+
+.nav-game-content span:first-child {
+	color: darkgray;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.ng-item img {
+	width: 20px;
+	margin-right: 3px;
+}
+
+.ng-item a {
+	font-size: 12px;
+	color: gainsboro;
+}
+
+
+/*服务下拉*/
+
+.nav-serve-content {
+	width: 160px;
+	padding-top: 10px;
+	border: 1px solid gray;
+	border-top: none;
+	position: absolute;
+	display: none;
+	z-index: 2;
+	margin-left: 180px;
+	background: rgb(27, 36, 51);
+}
+
+.nav-sever-content img {
+	width: 18px;
+	margin-right: 3px;
+}
+
+
+/*点数下拉*/
+
+.nav-count-content {
+	width: 160px;
+	padding-top: 10px;
+	border: 1px solid gray;
+	border-top: none;
+	position: absolute;
+	display: none;
+	z-index: 2;
+	margin-left: 85%;
+	background: rgb(27, 36, 51);
+}
+
+.nav-count-content .icon-img {
+	width: 12px;
+}
+
+
+/**/
+
+.container .container-item2 {
+	width: 100%;
+	/*height:3150px;*/
+	height: auto;
+}
+
+.con-i2 {
+	width: 100%;
+	/*height:460px;*/
+	position: relative;
+	border-top: 1px solid gray;
+	padding-bottom: 30px;
+}
+
+.con-i2-left {
+	width: 15%;
+	/*min-height:400px;*/
+	height: 350px;
+	position: absolute;
+	vertical-align: top;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-right: 20px;
+	position: relative;
+	display: inline-block;
+}
+
+.con-i2l-top {
+	position: absolute;
+	top: 0px;
+}
+
+.con-i2l-top p:first-child {
+	font-size: 25px;
+	color: gainsboro;
+	margin-bottom: 15px;
+}
+
+.con-i2-right {
+	width: 80%;
+	/*height:375px;*/
+	margin-top: 30px;
+	position: relative;
+	display: inline-block;
+}
+
+.con-i2r-item {
+	width: 23%;
+	min-width: 250px;
+	height: 450px;
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	/*background: rgb(32,33,37);*/
+	background-size: 100% 100%;
+	background-position: 0 0;
+}
+
+.con-i2r-item:hover {
+	transform: scale(1.03);
+	box-shadow: 0px 0px 3px 3px gainsboro;
+}
+
+.con-i2r-item-bottom {
+	position: absolute;
+	bottom: 0;
+	z-index: 5;
+	height: 180px;
+	width: 220px;
+	margin-left: 10px;
+}
+
+.con-i2r-item-bottom img {
+	width: 30px;
+}
+
+.con-i2r-item-bottom p:nth-child(2) {
+	font-size: 17px;
+	font-weight: 1000;
+	color: gainsboro;
+}
+
+.con-i2r-item-bottom .colorp {
+	color: goldenrod;
+}
+
+.con-i2r-item-bottom p:last-child {
+	color: gainsboro;
+}
+
+.con-i2r-i1 {
+	background-image: url(https://product.cnc.blzstatic.cn//fb1/2545a8e0efe0a320ec9434e9477e05e1-prod-card-tall.jpg);
+}
+
+.con-i2r-i2 {
+	background-image: url(https://product.cnc.blzstatic.cn//fa4/d4ce90a73166016bb5e21acf5835c0c4-64510-EpicBundle-Vert.jpg);
+}
+
+.con-i2r-i3 {
+	background-image: url(https://product.cnc.blzstatic.cn//18/967e891363f39812341bf3333118e057-prod-card-tall.jpg);
+}
+
+.con-i2r-i4 {
+	background-image: url(https://product.cnc.blzstatic.cn//2d/efecfb33b64f9a2c9aee1aaffa530aeb-WoW_Steamscale_Incinerator_StandAlone_prod-card-vert_TS01.jpg);
+}
+
+.con-i2r-i5 {
+	background-image: url(https://product.cnc.blzstatic.cn//fac/7afc1af7ea15e5eb0841ea1aa988aa4a-WoW_Quillen_Mount_prod-card-vert_TS02.jpg);
+}
+
+.con-i2r-i6 {
+	background-image: url(https://product.cnc.blzstatic.cn//13/8090b0a56d99cc973bc4d320154cf792-prod-card-tall.jpg);
+}
+
+.con-i2r-i7 {
+	background-image: url(https://product.cnc.blzstatic.cn//70/3ec6120b0071633f5d7ec83a36df1a00-prod-card-tall.jpg);
+}
+
+.con-i2r-i8 {
+	background-image: url(https://product.cnc.blzstatic.cn//fad/50618bd564c8228875fc8d218adb79d2-prod-card-tall.jpg);
+}
+
+.con-i2r-i9 {
+	background-image: url(https://product.cnc.blzstatic.cn//f95/22b4805ca031b1ba37a24810733047c1-prod-card-tall.jpg);
+}
+
+.con-i2r-i10 {
+	background-image: url(https://product.cnc.blzstatic.cn//6/47a05ae6f1951c34dd0395b8fec03398-NAEU-WoW_LunarNewYear2019_Standalone_Product_Vertical_MN01.png);
+}
+
+.con-i2r-i11 {
+	background-image: url(https://product.cnc.blzstatic.cn//4a/965a81ed02e9fe701944aeb246eef4d2-WoW_LNY_2020_Shop_Product_Page_Assets_prod-card-vert_TS02.jpg);
+}
+
+.con-i2r-i12 {
+	background-image: url(https://product.cnc.blzstatic.cn//ff2/b67b06497b28125ca5534d4611da0221-WoW_AlabasterMounts_Page_Assets_prod_card_vert_TS06.jpg);
+}
+
+.con-i2r-i13 {
+	background-image: url(https://product.cnc.blzstatic.cn//f8e/10487dae1d05196140b0504c9120be06-prod-card-vert_Standalone.jpg);
+}
+
+.con-i2r-i14 {
+	background-image: url(https://product.cnc.blzstatic.cn//3/6ed75fae280348d10cdbbe219021bb33-prod-card-vert.png);
+}
+
+.con-i2r-i15 {
+	background-image: url(https://product.cnc.blzstatic.cn//40/980f28c36a6c1e47d9955e51b8111150-prod-card-vert18.jpg);
+}
+
+.con-i2r-i16 {
+	background-image: url(https://product.cnc.blzstatic.cn//ff7/00f57421f708bf77ffca0ba6095fab28-prod-card-tall.jpg);
+}
+
+.con-i2r-i17 {
+	background-image: url(https://product.cnc.blzstatic.cn//fa1/ec3d2b8d87bde206dc3eed511dd4d0dc-prod-card-tall.jpg);
+}
+
+.con-i2r-i18 {
+	background-image: url(https://product.cnc.blzstatic.cn//3f/7f0c05d95387a2f0159839eeec1c1e92-prod-card-tall.jpg);
+}
+
+.con-i2r-i19 {
+	background-image: url(https://product.cnc.blzstatic.cn//f9a/b4e7fef53bcb8022a6a51d787de589aa-prod-card-tall.jpg);
+}
+
+.con-i2r-i20 {
+	background-image: url(https://product.cnc.blzstatic.cn//12/50fdbb6a9088a83dcb16dcdf8c49c52d-prod-card-tall.jpg);
+}
+
+.con-i2r-i21 {
+	background-image: url(https://product.cnc.blzstatic.cn//76/93e98d59f4147ac38a9c052ac9b3eac1-prod-card-tall.jpg);
+}
+
+.con-i2r-i22 {
+	background-image: url(https://product.cnc.blzstatic.cn//53/694a216643d2dbc9c817eeb026c75966-WoW_Quillen_Cub_Product_Page_Assets_prod-card-vert_TS02.jpg);
+}
+
+.con-i2r-i23 {
+	background-image: url(https://product.cnc.blzstatic.cn//21/b4cb53626b1ac98ac58041e2ad6181e5-prod-card-tall.jpg);
+}
+
+.con-i2r-i24 {
+	background-image: url(https://product.cnc.blzstatic.cn//27/86845b372c1125f1858f9115371b96f0-prod-card-tall.jpg);
+}
+
+.con-i2r-i25 {
+	background-image: url(https://product.cnc.blzstatic.cn//18/967e891363f39812341bf3333118e057-prod-card-tall.jpg);
+}
+
+.con-i2r-i26 {
+	background-image: url(https://product.cnc.blzstatic.cn//5b/5aa7cd928ebaabad08ba57b4b32b8b62-prod-card-tall.jpg);
+}
+
+.con-i2r-i27 {
+	background-image: url(https://product.cnc.blzstatic.cn//5/2855347c638dcdda49a265a3324c92d5-prod-card-tall.jpg);
+}
+
+.con-i2r-i28 {
+	background-image: url(https://product.cnc.blzstatic.cn//58/aa90b02c87ca7480f69bfc171da7fb85-WoW_2019_Charity_Pet_Dottie_Product_Page_Assets_prod-card-vert_TS03.jpg);
+}
+
+.con-i2r-i29 {
+	background-image: url(https://product.cnc.blzstatic.cn//15/291f809e5b9384d704415bd0c42811c1-prod-card-tall.jpg);
+}
+
+.con-i2r-i30 {
+	background-image: url(https://product.cnc.blzstatic.cn//50/e833f05e3897c105f1f211a34f769305-prod-card-vert_Capn_Crackers.jpg);
+}
+
+.con-i2r-i31 {
+	background-image: url(https://product.cnc.blzstatic.cn//f96/cae14edd3dd454fae9e4656d00425d1c-prod-card-tall.jpg);
+}
+
+.con-i2r-i32 {
+	background-image: url(https://product.cnc.blzstatic.cn//fb1/677e74b8f6d8a30de938e1b8c4349052-prod-card-tall.jpg);
+}
+
+.con-i2r-i33 {
+	background-image: url(https://product.cnc.blzstatic.cn//28/5812dad0652031336e06f76caaf95af5-prod-card-tall.jpg);
+}
+
+.con-i2r-i34 {
+	background-image: url(https://product.cnc.blzstatic.cn//4f/18d364704186764d2dc887e4401cac78-prod-card-tall.jpg);
+}
+
+.con-i2r-i35 {
+	background-image: url(https://product.cnc.blzstatic.cn//29/a3068a9e032fd0f0793312e605c8475d-prod-card-tall.jpg);
+}
+
+.con-i2r-i36 {
+	background-image: url(https://product.cnc.blzstatic.cn//f87/44ddcca66472baa6160deab41c98237a-prod-card-vert.jpg);
+}
+
+.con-i2r-i37 {
+	background-image: url(https://product.cnc.blzstatic.cn//fc7/dc2c6ba7383326d9e70bf5d32b3bddd9-prod-card-tall.jpg);
+}
+
+.con-i2r-i38 {
+	background-image: url(https://product.cnc.blzstatic.cn//ff6/7eb316750c5834e1990b5efbd3f41fc8-WoW_Promo_Esports_Toy_Transformer_Product_Card_Vert_MN02f.jpg);
+}
+
+.con-i2r-i39 {
+	background-image: url(https://product.cnc.blzstatic.cn//e/bc07dba72b0c1496e6d2801c7f1d9a4b-WoW_Promo_Esports_Toy_Fireworks_Product_Card_Vert_MN02.jpg);
+}
+
+.con-i2r-i40 {
+	background-image: url(https://product.cnc.blzstatic.cn//4/a872714ce2f05221623f1d2a9c19172f-apac-vertical.png);
+}
+
+.con-i2r-i41 {
+	background-image: url(https://product.cnc.blzstatic.cn//fe1/86bfcb57f58efd28f26b8eceb62ff79f-prod-card-tall.jpg);
+}
+
+.con-i2r-i42 {
+	background-image: url(https://product.cnc.blzstatic.cn//f9d/b32c4234df3bc745d486ce552fcf7503-prod-card-tall.jpg);
+}
+
+.con-i2r-i43 {
+	background-image: url(https://product.cnc.blzstatic.cn//fa5/77bf47999ba4a0f3903c5bc7068e601c-prod-card-tall.jpg);
+}
+
+.con-i2r-i44 {
+	background-image: url(https://product.cnc.blzstatic.cn//43/a6bc6125d56cf422332f939653283e4c-prod-card-tall.jpg);
+}
+
+.con-i2r-i45 {
+	background-image: url(https://product.cnc.blzstatic.cn//56/da8b5a48d8a1a32e2c9e530616c153f0-WoW_CharacterTransferShadowlands_ProdCardVert_700x850_HS.jpg);
+}
+
+.con-i2r-i46 {
+	background-image: url(https://product.cnc.blzstatic.cn//49/1fbfd1aedb7d4c407b00446b46dff656-prod-card-tall.jpg);
+}
+
+.con-i2r-i47 {
+	background-image: url(https://product.cnc.blzstatic.cn//ffa/b6d8de6927e769ad9407bf79ceaa210b-prod-card-tall.jpg);
+}
+
+.con-i2r-i48 {
+	background-image: url(https://product.cnc.blzstatic.cn//77/32093f4734232e094a898ad695852aa6-prod-card-tall.jpg);
+}
+
+.con-i2r-i49 {
+	background-image: url(https://product.cnc.blzstatic.cn//fa5/7ddcf5d0ba1441509f4aecf341850377-prod-card-tall.jpg);
+}
+
+.con-i2r-i50 {
+	background-image: url(https://product.cnc.blzstatic.cn//fd8/1b7a00e41453ed014e7069d37026a83a-WoW_CharacterBoost_120_ProductCard_Vert_MN01.jpg);
+}
+
+.con-i2r-i51 {
+	background-image: url(https://product.cnc.blzstatic.cn//a/1172e1ffce98878420869244be4bc6da-wow-700-850.jpg);
+}
+
+.footer {
+	background: rgb(0, 38, 80);
+	height: 550px;
+}
+
+.footer-logo {
+	margin-top: 0;
+	padding-top: 60px;
+}

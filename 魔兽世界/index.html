@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>魔兽世界</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	</head>
+
+	<body>
+		<section class="header">
+			<header>
+				<div class="logo">
+					<a href=""><img src="img/logo.png" /></a>
+				</div>
+				<ul class="nav_left">
+					<li>
+						<a href="" class="top-game">游戏<img class="icon-img" src="img/箭头下.png" /></a>
+					</li>
+					<li>
+						<a href="">商城</a>
+					</li>
+					<li>
+						<a href="">新闻</a>
+					</li>
+					<li>
+						<a href="" class="top-compete">电子竞技<img class="icon-img" src="img/箭头下.png" /></a>
+					</li>
+				</ul>
+				<ul class="nav_right">
+					<li>
+						<a href="">支持</a>
+					</li>
+					<li>
+						<a href="" class="top-user">我的账户<img class="icon-img" src="img/箭头下.png" /></a>
+					</li>
+				</ul>
+			</header>
+			<!--游戏下拉-->
+			<div class="top-game-content" id="tg-content" style="display: none;">
+				<div class="tg-top">
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-ow-4be5755bc0a4cbaf.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>守望先锋<sup>®</sup></p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-wow-3dd2cfe06df74407.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>魔兽世界<sup>®</sup></p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-hs-93512467e87f82c6.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>炉石传说<sup>®</sup></p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-heroes-78cae505b7a524fb.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>风暴英雄<sup>®</sup></p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-w3r-c8a76eea272dbd55.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>魔兽争霸<sup>®</sup>III：重制版</p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-di-01f9ac836ec31eed.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>暗黑破坏神<sup>®</sup>不朽</p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-d3-ab08e4045fed09ee.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>暗黑破坏神<sup>®</sup>III</p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-sc2-6e33583ba0547b6a.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>星际争霸<sup>®</sup>II</p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-scr-fef4f892c20f584c.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>星际争霸<sup>®</sup>重置版</p>
+						</div>
+					</div>
+				</div>
+				<div class="tg-bottom">
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/九宫格.png"/></sub>更多游戏</a>
+					</div>
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/下载.png"/></sub>下载</a>
+					</div>
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/消息.png"/></sub>游戏论坛</a>
+					</div>
+				</div>
+			</div>
+			<!--竞技下拉-->
+			<div class="top-compete-content" id="tc-content">
+				<div class="tc-top">
+					<div class="tc-top-item">
+						<div class="tc-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/esports/esports-owe-406b944b488a9252.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>守望先锋电竞官网</p>
+						</div>
+					</div>
+					<div class="tc-top-item">
+						<div class="tc-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/esports/esports-hsgs-8c998dc53d545314.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>炉石传说黄金系列赛</p>
+						</div>
+					</div>
+					<div class="tc-top-item">
+						<div class="tc-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/esports/esports-sc2gl-dfaef15b194ab10f.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>星际争霸II黄金职业联赛</p>
+						</div>
+					</div>
+					<div class="tc-top-item">
+						<div class="tc-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/esports/esports-w3gl-0f452de71eefc91b.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>魔兽争霸III黄金联赛</p>
+						</div>
+					</div>
+				</div>
+				<div class="tg-bottom">
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/九宫格.png"/></sub>更多赛事</a>
+					</div>
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/奖杯.png"/></sub>申请暴雪电竞赛事授权</a>
+					</div>
+				</div>
+			</div>
+			<!--账户下拉-->
+			<div class="top-user-content" id="tu-content">
+				<p class="tu-btn"><button>登录</button></p>
+				<p>
+					<a href=""><sub><img class="icon-img" src="img/设置.png"/></sub>设置</a>
+				</p>
+				<p>
+					<a href=""><sub><img class="icon-img" src="img/注册.png"/></sub>免费注册</a>
+				</p>
+			</div>
+		</section>
+
+		<section class="container">
+			<div class="container1">
+				<div class="video">
+					<video src="https://cms.cnc.blzstatic.cn/cms/gallery/GE3Z4E5JMQ5S1598554757403.mp4" data-src="https://cms.cnc.blzstatic.cn/cms/gallery/GE3Z4E5JMQ5S1598554757403.mp4" src="https://cms.cnc.blzstatic.cn/cms/gallery/GE3Z4E5JMQ5S1598554757403.mp4" data-src="https://cms.cnc.blzstatic.cn/cms/gallery/GE3Z4E5JMQ5S1598554757403.mp4" loop="loop" muted="muted" autoplay="autoplay"> </video>
+				</div>
+				<!--导航栏-->
+				<div class="container-nav" id="con-nav">
+					<div class="con-nav-logo">
+						<a href="index.html"><img class="cn-logo" src="img/con-nav-logo1.png" /></a>
+					</div>
+					<div class="con-nav-left">
+						<div class="con-nav-left-item">
+							<a href="" class="sec-game">游戏<img class="icon-img" src="img/箭头下.png" /></a>
+
+						</div>
+
+						<div class="con-nav-left-item">
+							<a href="news.html">新闻</a>
+						</div>
+						<div class="con-nav-left-item">
+							<a href="">论坛</a>
+						</div>
+						<div class="con-nav-left-item">
+							<a href="shop.html">商城</a>
+						</div>
+						<div class="con-nav-left-item con-nav-left-last-item">
+							<a href="">《魔兽世界》经典怀旧服</a>
+						</div>
+					</div>
+
+					<div class="con-nav-right">
+						<div class="con-nav-right-item con-nav-right-item-tiyan">
+							<a href="">免费体验</a>
+						</div>
+						<div class="con-nav-right-item con-nav-right-item-pay">
+							<a href="">立即充值</a>
+						</div>
+						<div class="con-nav-right-item con-nav-right-item-login">
+							<a href="">登录</a>
+						</div>
+						<div class="con-nav-right-item con-nav-right-item-search">
+							<a href="" class="con-nav-search"><sub><img class="icon-search" src="img/搜索1.png" /></sub></a>
+						</div>
+					</div>
+
+				</div>
+				<!--游戏下拉-->
+				<div class="con-nav-game cng" id="cn-game">
+					<div class="game game1">
+						<ul class="game-ul">
+							<li>游戏玩法</li>
+							<li>
+								<a href="race.html">种族</a>
+							</li>
+							<li>
+								<a href="">职业</a>
+							</li>
+							<li>
+								<a href="">天赋模拟器</a>
+							</li>
+						</ul>
+					</div>
+					<div class="game game2">
+						<ul class="game-ul">
+							<li>魔兽世界知识</li>
+							<li>
+								<a href="">所有</a>
+							</li>
+							<li>
+								<a href="">动画</a>
+							</li>
+							<li>
+								<a href="">音频</a>
+							</li>
+							<li>
+								<a href="">漫画</a>
+							</li>
+							<li>
+								<a href="">书籍</a>
+							</li>
+							<li>
+								<a href="">短篇小说</a>
+							</li>
+							<li>
+								<a href="">魔兽角色</a>
+							</li>
+							<li>
+								<a href="">魔兽里程碑</a>
+							</li>
+						</ul>
+					</div>
+					<div class="game game3">
+						<ul class="game-ul">
+							<li>指南和信息</li>
+							<li>
+								<a href="">新玩家</a>
+							</li>
+							<li>
+								<a href="">回归玩家</a>
+							</li>
+							<li>
+								<a href="">服务器状态</a>
+							</li>
+							<li>
+								<a href="">战友招募</a>
+							</li>
+							<li>
+								<a href="">内容更新说明</a>
+							</li>
+						</ul>
+					</div>
+					<div class="game game4">
+						<ul class="game-ul">
+							<li>新内容</li>
+							<li>
+								<a href="">暗影国度<sup>新</sup></a>
+							</li>
+							<li>
+								<a href="">争霸艾泽拉斯</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--搜索下拉-->
+				<div class="con-nav-search-content cng" id="cn-search">
+					<div class="cns-search">
+						<img src="img/搜索1.png" />
+						<input type="search" placeholder="搜索内容" />
+					</div>
+					<div class="cns-search-item">
+						<div class="game game1">
+							<ul class="game-ul">
+								<li>资源</li>
+								<li>
+									<a href="">新玩家</a>
+								</li>
+								<li>
+									<a href="">回归玩家</a>
+								</li>
+								<li>
+									<a href="">天赋模拟器</a>
+								</li>
+								<li>
+									<a href="">服务器状态</a>
+								</li>
+							</ul>
+						</div>
+						<div class="game game2">
+							<ul class="game-ul">
+								<li>新闻</li>
+								<li>
+									<a href="">最近更新</a>
+								</li>
+							</ul>
+						</div>
+						<div class="game game3">
+							<ul class="game-ul">
+								<li>游戏玩法</li>
+								<li>
+									<a href="">种族</a>
+								</li>
+								<li>
+									<a href="">职业</a>
+								</li>
+							</ul>
+						</div>
+						<div class="game game4">
+							<ul class="game-ul">
+								<li>论坛</li>
+								<li>
+									<a href="">支持</a>
+								</li>
+								<li>
+									<a href="">社区</a>
+								</li>
+								<li>
+									<a href="">网页和移动端反馈</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!--文字-->
+			<div class="container-item1">
+				<h1>“暗影国度”即将到来</h1>
+				<p>生死之间的帷幕不复存在，魔兽史诗的最新篇章即将登场。查看“暗影国度”开场动画与游戏内容，探索隐藏在彼岸的秘密！</p>
+				<p>
+					<a href="">探索“暗影国度”</a>
+				</p>
+				<button class="con-btn left-btn">购买游戏时间</button>
+				<button class="con-btn">下载游戏</button>
+			</div>
+			<div class="container-item2">
+				<span><strong>新闻及更新</strong>&nbsp;&nbsp;<small><a href="">查看所有新闻</a></small></span>
+				<div class="container-item2-news">
+					<div class="container-item2-news-item news1 hoveri">
+						<div class="news-bottom">
+							<span><small>2020年10月2日</small></span>
+							<br />
+							<span><strong><a href="">《魔兽世界》新内容“暗影国度”前夕信息汇总</a></strong></span>
+						</div>
+					</div>
+					<div class="container-item2-news-item news2 hoveri">
+						<div class="news-bottom">
+							<span><small>2020年10月2日</small></span>
+							<br />
+							<span><strong><a href="">假日活动：《德拉诺之王》时空漫游</a></strong></span>
+						</div>
+					</div>
+					<div class="container-item2-news-item news3 hoveri">
+						<div class="news-bottom">
+							<span><small>2020年9月25日</small></span>
+							<br />
+							<span><strong><a href="">“暗影国度”前瞻：角色定制</a></strong></span>
+						</div>
+					</div>
+					<div class="container-item2-news-item news4 hoveri">
+						<div class="news-bottom">
+							<span><small>2020年9月18日</small></span>
+							<br />
+							<span><strong><a href="">观看“暗影国度”动画短片彼岸之地：雷文德斯</a></strong></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container2">
+				<div class="container-item3">
+					<div class="container-item3-img con-i3-left hoveri">
+						<div class="con-i3-top con-i3-i1">
+							<img src="img/img1-1.png" />
+						</div>
+						<div class="con-i3-bottom">
+							<p>《魔兽世界》新玩家</p>
+							<p>开启你的冒险</p>
+							<br />
+							<p>在艾泽拉斯开启你的旅程，快来免费体验《魔兽世界》吧！</p>
+						</div>
+					</div>
+					<div class="container-item3-img con-i3-right hoveri">
+						<div class="con-i3-top con-i3-i2">
+							<img src="img/img2-1.png" />
+						</div>
+						<div class="con-i3-bottom">
+							<p>《魔兽世界》回归玩家</p>
+							<p>欢迎回归艾泽拉斯</p>
+							<br />
+							<p>了解如何回归游戏，感受《魔兽世界》和《魔兽世界》经典怀旧服的最新内容吧！</p>
+						</div>
+					</div>
+				</div>
+				<div class="container-item4">
+					<div class="con-i4">
+						<p>《魔兽世界》景点怀旧服内容更新</p>
+						<p>安其拉之门</p>
+						<br />
+						<p>荒漠中伫立着庞大的安其拉堡垒，在其高墙背后则潜伏着邪恶的古神克苏恩。在克苏恩的煽动下，其拉虫人变得出奇的狂暴，而联盟和部落也将面临一场大战。围攻安其拉的废墟与神庙，征服那些来自远古时代的恐怖吧！</p>
+						<button class="con-btn left-btn">购买游戏时间</button>
+						<button class="con-btn">了解详情</button>
+					</div>
+				</div>
+				<div class="container-item5">
+					<div class="con-i4 con-i5">
+						<p>“暗影国度”内容前瞻</p>
+						<p>跨越生与死的界限</p>
+						<br />
+						<p>“暗影国度”正处于开发阶段，其中有很多值得分享的信息。为此我们整理了一手资讯，以便帮助你了解最新的进展。</p>
+						<button class="con-btn">了解详情</button>
+					</div>
+				</div>
+				<div class="container-item6">
+					<div class="con-i4">
+						<p>全新内容</p>
+						<p>加入污妖王的大军</p>
+						<br />
+						<p>“暗影国度”正处于开发阶段，其中有很多值得分享的信息。为此我们整理了一手资讯，以便帮助你了解最新的进展。</p>
+						<button class="con-btn left-btn">购买数字礼包</button>
+						<button class="con-btn">了解更多</button>
+					</div>
+				</div>
+				<div class="container-item7">
+					<div class="con-i4 con-i5">
+						<p>全新而独特的奖励</p>
+						<p>战友招募</p>
+						<br />
+						<p>带领你的好友一同在艾泽拉斯展开冒险，赢取史诗级的奖励吧。当你的好友为艾泽拉斯而战时，你便可以在全新的活动中，获得特殊的游戏福利和虚拟奖励，其中包括游戏时间、虚拟坐骑和虚拟宠物。</p>
+						<button class="con-btn">了解详情</button>
+					</div>
+				</div>
+				<div class="container-item8">
+					<div class="container-item3-img con-i3-left con-i8-left hoveri">
+						<div class="con-i3-top con-i3-i1 con-i8-i1">
+						</div>
+						<div class="con-i3-bottom con-i8-bottom">
+							<p>《恩佐斯的幻象》</p>
+							<p>版本更新说明</p>
+						</div>
+					</div>
+					<div class="container-item3-img con-i3-right con-i8-right hoveri">
+						<div class="con-i3-top con-i3-i2 con-i8-i2">
+						</div>
+						<div class="con-i3-bottom con-i8-bottom">
+							<p>《争霸艾泽拉斯》</p>
+							<p>在线修正</p>
+						</div>
+					</div>
+				</div>
+				<div class="container-item9">
+					<div class="con-i4">
+						<p></p>
+						<p>争霸艾泽拉斯</p>
+						<br />
+						<p>前往“争霸艾泽拉斯”专题网站，了解《魔兽世界》即将推出的全新功能、玩法、剧情，以及更多精彩内容！</p>
+						<button class="con-btn left-btn">购买数字典藏礼包</button>
+						<button class="con-btn" style="float: left;">了解详情</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer">
+			<div class="footer-top">
+				<div class="footer-top-con">
+					<span>关注魔兽</span>
+					<a href=""><img src="img/新浪1.png" /></a>
+					<a href=""><img src="img/微信1.png" /></a>
+					<a href=""><img src="img/yk1.png" /></a>
+				</div>
+			</div>
+			<footer class="footer-bottom">
+				<div class="footer-logo">
+					<img src="img/底部logo.png" />
+				</div>
+				<br />
+				<ul class="footer-ul footer-b" id="footer-ul1">
+					<li>
+						<a href="">工作机会</a>
+					</li>|
+					<li>
+						<a href="">关于</a>
+					</li>|
+					<li>
+						<a href="">支持</a>
+					</li>|
+					<li>
+						<a href="">媒体中心</a>
+					</li>|
+					<li>
+						<a href="">API</a>
+					</li>|
+					<li>
+						<a href="">安全中心</a>
+					</li>
+				</ul>
+				<br />
+				<p>©2020暴雪娱乐有限公司版权所有。</p>
+				<p>在此提及的其他所有
+					<a href="" id="footer-bs">商标</a>均是其各自所有人的财产</p>
+				<p>由上海网之易网络科技发展有限公司运营。</p>
+				<ul class="footer-ul footer-b">
+					<li>
+						<a href="">隐私</a>
+					</li>|
+					<li>
+						<a href="">法律</a>
+					</li>|
+					<li>
+						<a href="">条款</a>
+					</li>
+				</ul>
+				<br />
+				<ul class="footer-ul">
+					<li>
+						<a href="">沪网文[2017]9633-727号</a>
+					</li>|
+					<li>
+						<a href="">增值电信业务经营许可证编号：沪B2-20080012</a>
+					</li>|
+					<li>
+						<a href="">沪ICP备：沪B2-20080012</a>
+					</li>
+				</ul>
+				<ul class="footer-ul">
+					<li>
+						<a href="">互联网违法和不良信息举报电话：0577-28090163</a>
+					</li>|
+					<li>
+						<a href="">沪公网安备：31011502002167</a>
+					</li>|
+					<li>
+						<a href="">网上有害信息专区</a>
+					</li>
+				</ul>
+				<ul class="footer-ul footer-b">
+					<li>
+						<a href="">适龄提示：适合13岁及以上使用 家长监护工程</a>
+					</li>|
+					<li>
+						<a href="">上海市网络游戏行业自律公约</a>
+					</li>
+				</ul>
+				<ul class="footer-ul">
+					<li>
+						<a href="">上海市张江高科技园区碧波路690号5号楼301-A</a>
+					</li>|
+					<li>
+						<a href="">客服电话：0571-28090163</a>
+					</li>
+				</ul>
+				<div class="footer-img">
+					<a href=""><img src="img/b1.gif" /></a>
+					<a href=""><img src="img/b2.gif" /></a>
+					<a href=""><img src="img/b3.gif" /></a>
+					<a href=""><img src="img/b4.png" /></a>
+				</div>
+				<p>健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当</p>
+				<p>适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+			</footer>
+			<<div class="fix-footer">
+				<div class="fix-footer-d fix-footer-d1">
+					<p>《暗影国度》<small>数字礼包</small></p>
+				</div>
+				<div class="fix-footer-d fix-footer-d2">
+					<a href=""><sup><small>了解详情</small></sup></a>
+				</div>
+				<div class="fix-footer-d fix-footer-d3">
+					<div class="fg">
+						<img src="img/b5-1.png" />
+					</div>
+					<a href=""><sup>立即购买</sup></a>
+				</div>
+				</div>
+		</section>
+	</body>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

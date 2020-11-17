@@ -1,0 +1,179 @@
+
+.container{
+	width: 100%;
+	max-width: 1700px;
+	min-width: 1200px;
+	height:auto;
+	font-family: "微软雅黑";
+}
+.container .container1{
+	width: 100%;
+	max-width: 1700px;
+	/*min-width: 900px;*/
+	height:110px;
+}
+.container .video{
+	width: 100% !important;
+	max-width: 1700px;
+	height:550px;
+	margin-top: -40px;
+	min-width: 1700px;
+	overflow:hidden ;
+	position: absolute;
+	z-index: -99;
+
+}
+video{
+	/*width: 100%;*/
+	width: 1900px;
+	height:550px;
+	object-fit：cover !important;
+}
+
+/*文字*/
+.container-item1{
+	width: 60%;
+	height:300px;
+	margin: 0 auto;
+	margin-top: 100px;
+	color: white;
+	text-align: center;
+	font-size: 19px;
+	position: relative;
+}
+.container-item1 h1{
+	font-size: 50px;
+}
+.container-item1 p{
+	color: burlywood;
+}
+
+/*为了联盟*/
+.container-item2{
+	width: 100%;
+	height:600px;
+	margin-top: 5px;
+	text-align: center;
+	background-image: url(https://wow-site-assets.cnc.blzstatic.cn/static/components/Pane/Pane-leather-blue.9de312ba15472b63bc7e9d3f62b64c65.jpg);
+}
+.ci2-top{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+.ci-logo{
+	width: 100px;
+	margin-top: -50px;
+}
+.ci2-top h1{
+	color: white;
+	margin: 10px auto;
+	font-size: 30px;
+}
+.ci2-top p{
+	color: burlywood;
+}
+.ci2-bottom{
+	width: auto;
+	height:250px;
+	margin: 40px auto;
+	text-align: center;
+}
+.ci2-item{
+	width: 161px;
+	height: 210px;
+	margin-right: 15px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+}
+.ci2-btm-img{
+	width: 160px;
+	height: 210px;
+	overflow: hidden;
+	border: 1px solid dodgerblue;
+}
+.ci2-btm-i1{
+	width: 204px;
+	height: 254px;
+	margin-top: -41px;
+	margin-left: -19px;
+	/*border: 1px solid dodgerblue;*/
+}
+.ci2-btm-i2{
+	width: 50px;
+	margin-top: -25px;
+	position: relative;
+}
+.ci2-btm-i3{
+	color: goldenrod;
+}
+.ci2-item:hover .ci2-btm-img{
+	border: 1px solid goldenrod;
+}
+.ci2-item:hover .ci2-btm-i1{
+	width: 220px;
+	height:274px;
+	margin-top: -46px;
+	margin-left: -24px;
+}
+.ci2-item:hover .ci2-btm-i3{
+	color: white;
+}
+.container-item3{
+	background-image: url(https://wow-site-assets.cnc.blzstatic.cn/static/components/Pane/Pane-leather-red.ed195e1c1da9da078315cae0469323e1.jpg);
+}
+.ci3-btm-img{
+	border: 1px solid red;
+}
+.container-item4{
+	height: auto;
+	background-image: url(https://wow-site-assets.cnc.blzstatic.cn/static/components/Pane/Pane-leather-gray-map.4f5e5cedac63202812029039fc0832f2.jpg);
+}
+.container-item4 .ci2-top{
+	padding-top: 40px;
+}
+.container-item4 .ci2-bottom{
+	width: 60%;
+	height: auto;
+	margin: 10px auto;
+}
+.container-item4 .ci2-item{
+	margin-top: 20px;
+}
+/*.ci4-btm-img{
+	width: 160px;
+	height: 210px;
+	position: relative;
+	border: 1px solid dodgerblue;
+}
+.ci4-btm-img img{
+	overflow:visible;
+	position: absolute;
+	z-index: 0;
+	bottom: 0px;
+	right:-17px;
+	height:270px;
+	width: 195px;
+	margin-left: -90px;
+}*/
+.ci4-btm-img .ci2-btm-i1-2{
+	overflow:visible;
+	position: absolute;
+	z-index: 1;
+	width: 204px;
+	height: 254px;
+	margin-top: -41px;
+	margin-left: -19px;
+}
+.ci2-item:hover .ci4-btm-img .ci2-btm-i1-2{
+	overflow: visible;
+	width: 220px;
+	height:274px;
+	margin-top: -46px;
+	margin-left: -24px;
+	position: absolute;
+	z-index: 2;
+	/*bottom: 0px;
+	right: -20px;*/
+}

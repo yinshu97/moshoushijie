@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>可玩种族</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/race.css" />
+	</head>
+
+	<body>
+		<section class="header">
+			<header>
+				<div class="logo">
+					<a href=""><img src="img/logo.png" /></a>
+				</div>
+				<ul class="nav_left">
+					<li>
+						<a href="" class="top-game">游戏<img class="icon-img" src="img/箭头下.png" /></a>
+					</li>
+					<li>
+						<a href="">商城</a>
+					</li>
+					<li>
+						<a href="">新闻</a>
+					</li>
+					<li>
+						<a href="" class="top-compete">电子竞技<img class="icon-img" src="img/箭头下.png" /></a>
+					</li>
+				</ul>
+				<ul class="nav_right">
+					<li>
+						<a href="">支持</a>
+					</li>
+					<li>
+						<a href="" class="top-user">我的账户<img class="icon-img" src="img/箭头下.png" /></a>
+					</li>
+				</ul>
+			</header>
+			<!--游戏下拉-->
+			<div class="top-game-content" id="tg-content" style="display: none;">
+				<div class="tg-top">
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-ow-4be5755bc0a4cbaf.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>守望先锋<sup>®</sup></p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-wow-3dd2cfe06df74407.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>魔兽世界<sup>®</sup></p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-hs-93512467e87f82c6.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>炉石传说<sup>®</sup></p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-heroes-78cae505b7a524fb.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>风暴英雄<sup>®</sup></p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-w3r-c8a76eea272dbd55.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>魔兽争霸<sup>®</sup>III：重制版</p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-di-01f9ac836ec31eed.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>暗黑破坏神<sup>®</sup>不朽</p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-d3-ab08e4045fed09ee.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>暗黑破坏神<sup>®</sup>III</p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-sc2-6e33583ba0547b6a.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>星际争霸<sup>®</sup>II</p>
+						</div>
+					</div>
+					<div class="tg-top-item">
+						<div class="tg-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/games/logo-scr-fef4f892c20f584c.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>星际争霸<sup>®</sup>重置版</p>
+						</div>
+					</div>
+				</div>
+				<div class="tg-bottom">
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/九宫格.png"/></sub>更多游戏</a>
+					</div>
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/下载.png"/></sub>下载</a>
+					</div>
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/消息.png"/></sub>游戏论坛</a>
+					</div>
+				</div>
+			</div>
+			<!--竞技下拉-->
+			<div class="top-compete-content" id="tc-content">
+				<div class="tc-top">
+					<div class="tc-top-item">
+						<div class="tc-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/esports/esports-owe-406b944b488a9252.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>守望先锋电竞官网</p>
+						</div>
+					</div>
+					<div class="tc-top-item">
+						<div class="tc-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/esports/esports-hsgs-8c998dc53d545314.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>炉石传说黄金系列赛</p>
+						</div>
+					</div>
+					<div class="tc-top-item">
+						<div class="tc-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/esports/esports-sc2gl-dfaef15b194ab10f.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>星际争霸II黄金职业联赛</p>
+						</div>
+					</div>
+					<div class="tc-top-item">
+						<div class="tc-ti-img">
+							<img src="https://nav.cnc.blzstatic.cn/img/esports/esports-w3gl-0f452de71eefc91b.png" />
+						</div>
+						<div class="tg-ti-p">
+							<p>魔兽争霸III黄金联赛</p>
+						</div>
+					</div>
+				</div>
+				<div class="tg-bottom">
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/九宫格.png"/></sub>更多赛事</a>
+					</div>
+					<div class="tg-bi">
+						<a href=""><sub><img class="icon-img" src="img/奖杯.png"/></sub>申请暴雪电竞赛事授权</a>
+					</div>
+				</div>
+			</div>
+			<!--账户下拉-->
+			<div class="top-user-content" id="tu-content">
+				<p class="tu-btn"><button>登录</button></p>
+				<p>
+					<a href=""><sub><img class="icon-img" src="img/设置.png"/></sub>设置</a>
+				</p>
+				<p>
+					<a href=""><sub><img class="icon-img" src="img/注册.png"/></sub>免费注册</a>
+				</p>
+			</div>
+		</section>
+
+		<section class="container">
+			<div class="container1">
+				<div class="video">
+					<video src="https://bnetcmsus-a.akamaihd.net/cms/template_resource/UH8JZNHE7BY71534102731470.mp4"  loop="loop" muted="muted" autoplay="autoplay"> </video>
+				</div>
+				<!--导航栏-->
+				<div class="container-nav" id="con-nav">
+					<div class="con-nav-logo">
+						<a href="index.html"><img class="cn-logo" src="img/con-nav-logo1.png" /></a>
+					</div>
+					<div class="con-nav-left">
+						<div class="con-nav-left-item">
+							<a href="" class="sec-game">游戏<img class="icon-img" src="img/箭头下.png" /></a>
+
+						</div>
+
+						<div class="con-nav-left-item">
+							<a href="news.html">新闻</a>
+						</div>
+						<div class="con-nav-left-item">
+							<a href="">论坛</a>
+						</div>
+						<div class="con-nav-left-item">
+							<a href="shop.html">商城</a>
+						</div>
+						<div class="con-nav-left-item con-nav-left-last-item">
+							<a href="">《魔兽世界》经典怀旧服</a>
+						</div>
+					</div>
+
+					<div class="con-nav-right">
+						<div class="con-nav-right-item con-nav-right-item-tiyan">
+							<a href="">免费体验</a>
+						</div>
+						<div class="con-nav-right-item con-nav-right-item-pay">
+							<a href="">立即充值</a>
+						</div>
+						<div class="con-nav-right-item con-nav-right-item-login">
+							<a href="">登录</a>
+						</div>
+						<div class="con-nav-right-item con-nav-right-item-search">
+							<a href="" class="con-nav-search"><sub><img class="icon-search" src="img/搜索1.png" /></sub></a>
+						</div>
+					</div>
+
+				</div>
+				<!--游戏下拉-->
+				<div class="con-nav-game cng" id="cn-game">
+					<div class="game game1">
+						<ul class="game-ul">
+							<li>游戏玩法</li>
+							<li>
+								<a href="">种族</a>
+							</li>
+							<li>
+								<a href="">职业</a>
+							</li>
+							<li>
+								<a href="">天赋模拟器</a>
+							</li>
+						</ul>
+					</div>
+					<div class="game game2">
+						<ul class="game-ul">
+							<li>魔兽世界知识</li>
+							<li>
+								<a href="">所有</a>
+							</li>
+							<li>
+								<a href="">动画</a>
+							</li>
+							<li>
+								<a href="">音频</a>
+							</li>
+							<li>
+								<a href="">漫画</a>
+							</li>
+							<li>
+								<a href="">书籍</a>
+							</li>
+							<li>
+								<a href="">短篇小说</a>
+							</li>
+							<li>
+								<a href="">魔兽角色</a>
+							</li>
+							<li>
+								<a href="">魔兽里程碑</a>
+							</li>
+						</ul>
+					</div>
+					<div class="game game3">
+						<ul class="game-ul">
+							<li>指南和信息</li>
+							<li>
+								<a href="">新玩家</a>
+							</li>
+							<li>
+								<a href="">回归玩家</a>
+							</li>
+							<li>
+								<a href="">服务器状态</a>
+							</li>
+							<li>
+								<a href="">战友招募</a>
+							</li>
+							<li>
+								<a href="">内容更新说明</a>
+							</li>
+						</ul>
+					</div>
+					<div class="game game4">
+						<ul class="game-ul">
+							<li>新内容</li>
+							<li>
+								<a href="">暗影国度<sup>新</sup></a>
+							</li>
+							<li>
+								<a href="">争霸艾泽拉斯</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--搜索下拉-->
+				<div class="con-nav-search-content cng" id="cn-search">
+					<div class="cns-search">
+						<img src="img/搜索1.png" />
+						<input type="search" placeholder="搜索内容" />
+					</div>
+					<div class="cns-search-item">
+						<div class="game game1">
+							<ul class="game-ul">
+								<li>资源</li>
+								<li>
+									<a href="">新玩家</a>
+								</li>
+								<li>
+									<a href="">回归玩家</a>
+								</li>
+								<li>
+									<a href="">天赋模拟器</a>
+								</li>
+								<li>
+									<a href="">服务器状态</a>
+								</li>
+							</ul>
+						</div>
+						<div class="game game2">
+							<ul class="game-ul">
+								<li>新闻</li>
+								<li>
+									<a href="">最近更新</a>
+								</li>
+							</ul>
+						</div>
+						<div class="game game3">
+							<ul class="game-ul">
+								<li>游戏玩法</li>
+								<li>
+									<a href="">种族</a>
+								</li>
+								<li>
+									<a href="">职业</a>
+								</li>
+							</ul>
+						</div>
+						<div class="game game4">
+							<ul class="game-ul">
+								<li>论坛</li>
+								<li>
+									<a href="">支持</a>
+								</li>
+								<li>
+									<a href="">社区</a>
+								</li>
+								<li>
+									<a href="">网页和移动端反馈</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!--文字-->
+			<div class="container-item1">
+				<h1>艾泽拉斯的子民</h1>
+				<br />
+				<p>艾泽拉斯星球有许多种族，有一些世代生活在这里，有一些则来自其他的世界。无论是联盟的新兵还是部落的猛将，只要选定了种族，就需要在这场永无休止的争斗中为对应的阵营而战。你会效忠哪一方？</p>
+			</div>
+			<!--为了联盟-->
+			<div class="container-item2">
+				<div class="ci2-top">
+					<img class="ci-logo" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/Logo/Logo-alliance.bb36e70f5f690a5fc510ed03e80aa259.png" />
+					<h1>为了联盟</h1>
+					<p>坚定的信念驱使着忠诚的联盟。他们秉持正义，保卫艾泽拉斯，抵御包括野蛮的部落在内的一切入侵者。</p>
+				</div>
+				<div class="ci2-bottom">
+					<div class="ci2-item">
+						<div class="ci2-btm-img">
+							<img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/3T2ADS9DASQ71534177603210.png" />
+						</div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">人类</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img">
+							<img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/Z1DD1ZQUIPUC1534177596290.png" />
+						</div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">矮人</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/RQF0AQJO36FR1534177608257.png" />
+						</div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">暗夜精灵</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/1Y72H589RHAE1534177595325.png" />
+						</div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">侏儒</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/53ZPA6DL2B8K1534177594675.png" />
+						</div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">德莱尼</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/9EOGOE5HQJV01534177625382.png" />
+						</div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">狼人</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img"><img class="ci2-btm-i1" src="https://cms-origin.battlenet.com.cn/cms/gallery/JRLBVSU7MZZV1534177613381.png" />
+						</div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">熊猫人</h3>
+					</div>
+				</div>
+			</div>
+			<!--为了部落-->
+			<div class="container-item2 container-item3">
+				<div class="ci2-top">
+					<img class="ci-logo" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/Logo/Logo-horde.2a80e0466e51d85c8cf60336e16fe8b8.png" />
+					<h1>为了部落</h1>
+					<p>无畏的部落为了追求团结统一而奋斗。他们赤诚地守护着自由和希望，誓要摧毁包括顽固的联盟在内的，任何理想道路上的绊脚石。</p>
+				</div>
+				<div class="ci2-bottom ">
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img">
+							<img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/ZS7AXMAJ5TCI1534177612314.png" />
+						</div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-horde.92e86624e796446ef43ed3fe08f6d45f.png" />
+						<h3 class="ci2-btm-i3">兽人</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img">
+							<img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/NDFCNULYD6VR1534177619423.png" />
+						</div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-horde.92e86624e796446ef43ed3fe08f6d45f.png" />
+						<h3 class="ci2-btm-i3">亡灵</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/521X4AP4SUFY1534177618757.png" />
+						</div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-horde.92e86624e796446ef43ed3fe08f6d45f.png" />
+						<h3 class="ci2-btm-i3">牛头人</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/YSBBH3T39FBA1534177619268.png" />
+						</div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-horde.92e86624e796446ef43ed3fe08f6d45f.png" />
+						<h3 class="ci2-btm-i3">巨魔</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/TFDOZELA4MRP1534177591200.png" />
+						</div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-horde.92e86624e796446ef43ed3fe08f6d45f.png" />
+						<h3 class="ci2-btm-i3">血精灵</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/V0NCFRAWTY4P1534177599241.png" />
+						</div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-horde.92e86624e796446ef43ed3fe08f6d45f.png" />
+						<h3 class="ci2-btm-i3">地精</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img"><img class="ci2-btm-i1" src="https://cms-origin.battlenet.com.cn/cms/gallery/UUKSTNRV55OY1534177615671.png" />
+						</div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-horde.92e86624e796446ef43ed3fe08f6d45f.png" />
+						<h3 class="ci2-btm-i3">熊猫人</h3>
+					</div>
+				</div>
+			</div>
+			<!--同盟种族-->
+			<div class="container-item2 container-item4">
+				<div class="ci2-top">
+					<!--<img class="ci-logo" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/Logo/Logo-horde.2a80e0466e51d85c8cf60336e16fe8b8.png" />-->
+					<h1>同盟种族</h1>
+					<p>联盟和部落的英雄踏访遥远的大陆，寻找新的盟友。在游戏内招募以下种族加入阵营的事业之后，就可以化身相应种族的英雄，展开你的冒险之旅。</p>
+				</div>
+				<div class="ci2-bottom ">
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci4-btm-img">
+							<img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/8WRM9QH1SYAZ1534177623316.png" />
+							<img class="ci2-btm-1-2" src="https://cms-origin.battlenet.com.cn/cms/gallery/YOPOGNMT3JX71534177624758.png" /></div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">虚空精灵</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci4-btm-img">
+							<img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/BEIS26AA3R3V1534177602731.png" />
+							<img class="ci2-btm-1-2" src="https://cms-origin.battlenet.com.cn/cms/gallery/7LW74XFU688L1534177604101.png" /></div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">光铸德莱尼</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci4-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/CVONVZNKN0U41534177590350.png" />
+							<img class="ci2-btm-1-2" src="https://cms-origin.battlenet.com.cn/cms/gallery/C5BT8Y2UWCH61534177591332.png" /></div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">黑铁矮人</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci4-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/8RZGP6GHIEQ41552001458319.png" />
+							<img class="ci2-btm-1-2" src="https://bnetcmsus-a.akamaihd.net/cms/template_resource/XPUAHIW8CRP41549479456294.png" />
+						</div>
+						<img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">库尔提拉斯人</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci4-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/es/ESB4AWB9WPIB1583479374597.png" />
+						</div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">机械侏儒</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img ci4-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/71VK77EPLZMS1534177608617.png" />
+							<img class="ci2-btm-1-2" src="https://cms-origin.battlenet.com.cn/cms/gallery/SKI0JPC83XCT1534177608326.png" /></div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">夜之子</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img ci4-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/RQEXWVKBQMTK1534177598692.png" />
+							<img class="ci2-btm-1-2" src="https://cms-origin.battlenet.com.cn/cms/gallery/E5L87L5PAEH21534177602386.png" /></div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">至高岭牛头人</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img ci4-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/94HJY6RJ3IRR1534177605468.png" />
+							<img class="ci2-btm-1-2" src="https://cms-origin.battlenet.com.cn/cms/gallery/DMRRLRUXFP3L1534177605352.png" /></div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">玛格汉兽人</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci3-btm-img ci4-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/YEK0RJOQN9ZZ1552001458876.png" />
+							<img class="ci2-btm-1-2" src="https://bnetcmsus-a.akamaihd.net/cms/template_resource/352XGNYFM1SD1549412561001.png" />
+						</div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">赞达拉巨魔</h3>
+					</div>
+					<div class="ci2-item">
+						<div class="ci2-btm-img ci2-btm-img ci3-btm-img ci4-btm-img"><img class="ci2-btm-i1" src="https://cms.cnc.blzstatic.cn/cms/gallery/po/POZ70DITQE541583480851987.png" />
+							<img class="ci2-btm-1-2" src="https://bnetcmsus-a.akamaihd.net/cms/template_resource/8D8JEPR9D56J1578618832976.png" /></div><img class="ci2-btm-i2" src="https://wow-site-assets.cnc.blzstatic.cn/static/components/RaceTile/RaceTile-emblem-alliance.fdb465cb222deb6db535f901ff2239c6.png" />
+						<h3 class="ci2-btm-i3">狐人</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer">
+			<div class="footer-top">
+				<div class="footer-top-con">
+					<span>关注魔兽</span>
+					<a href=""><img src="img/新浪1.png" /></a>
+					<a href=""><img src="img/微信1.png" /></a>
+					<a href=""><img src="img/yk1.png" /></a>
+				</div>
+			</div>
+			<footer class="footer-bottom">
+				<div class="footer-logo">
+					<img src="img/底部logo.png" />
+				</div>
+				<br />
+				<ul class="footer-ul footer-b" id="footer-ul1">
+					<li>
+						<a href="">工作机会</a>
+					</li>|
+					<li>
+						<a href="">关于</a>
+					</li>|
+					<li>
+						<a href="">支持</a>
+					</li>|
+					<li>
+						<a href="">媒体中心</a>
+					</li>|
+					<li>
+						<a href="">API</a>
+					</li>|
+					<li>
+						<a href="">安全中心</a>
+					</li>
+				</ul>
+				<br />
+				<p>©2020暴雪娱乐有限公司版权所有。</p>
+				<p>在此提及的其他所有
+					<a href="" id="footer-bs">商标</a>均是其各自所有人的财产</p>
+				<p>由上海网之易网络科技发展有限公司运营。</p>
+				<ul class="footer-ul footer-b">
+					<li>
+						<a href="">隐私</a>
+					</li>|
+					<li>
+						<a href="">法律</a>
+					</li>|
+					<li>
+						<a href="">条款</a>
+					</li>
+				</ul>
+				<br />
+				<ul class="footer-ul">
+					<li>
+						<a href="">沪网文[2017]9633-727号</a>
+					</li>|
+					<li>
+						<a href="">增值电信业务经营许可证编号：沪B2-20080012</a>
+					</li>|
+					<li>
+						<a href="">沪ICP备：沪B2-20080012</a>
+					</li>
+				</ul>
+				<ul class="footer-ul">
+					<li>
+						<a href="">互联网违法和不良信息举报电话：0577-28090163</a>
+					</li>|
+					<li>
+						<a href="">沪公网安备：31011502002167</a>
+					</li>|
+					<li>
+						<a href="">网上有害信息专区</a>
+					</li>
+				</ul>
+				<ul class="footer-ul footer-b">
+					<li>
+						<a href="">适龄提示：适合13岁及以上使用 家长监护工程</a>
+					</li>|
+					<li>
+						<a href="">上海市网络游戏行业自律公约</a>
+					</li>
+				</ul>
+				<ul class="footer-ul">
+					<li>
+						<a href="">上海市张江高科技园区碧波路690号5号楼301-A</a>
+					</li>|
+					<li>
+						<a href="">客服电话：0571-28090163</a>
+					</li>
+				</ul>
+				<div class="footer-img">
+					<a href=""><img src="img/b1.gif" /></a>
+					<a href=""><img src="img/b2.gif" /></a>
+					<a href=""><img src="img/b3.gif" /></a>
+					<a href=""><img src="img/b4.png" /></a>
+				</div>
+				<p>健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当</p>
+				<p>适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+			</footer>
+			<<div class="fix-footer">
+				<div class="fix-footer-d fix-footer-d1">
+					<p>《暗影国度》<small>数字礼包</small></p>
+				</div>
+				<div class="fix-footer-d fix-footer-d2">
+					<a href=""><sup><small>了解详情</small></sup></a>
+				</div>
+				<div class="fix-footer-d fix-footer-d3">
+					<div class="fg">
+						<img src="img/b5-1.png" />
+					</div>
+					<a href=""><sup>立即购买</sup></a>
+				</div>
+				</div>
+		</section>
+	</body>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

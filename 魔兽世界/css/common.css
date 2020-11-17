@@ -1,0 +1,553 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	min-width: 1200px;
+	overflow-x: hidden;
+	background-color: rgb(21,13,8);
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style: none;
+}
+.hoveri:hover{
+	border: 1px solid goldenrod;
+	cursor: pointer;
+}
+/*  导航栏   */
+.header{
+	max-width: 100%;
+	background-color: black;
+	height:40px;
+	position: relative;
+	z-index: 99;
+	}
+.header header{
+	/*width: 1350px;*/
+	width: 100%;
+	min-width: 1200px;
+	max-width: 1700px;
+	margin: 0 auto;
+}
+.header .logo,.nav_left,.nav_right{
+	float: left;
+}
+.icon-img{
+	width: 11px;
+	margin-left: 5px;
+}
+.header a{
+	height:100%;
+	line-height: 100%;
+	display:table-cell;
+	vertical-align: midule;
+	margin-right: 15px;
+	color: darkgray;
+}
+a:hover{
+	color: white;
+}
+.header .logo{
+	width: 10%;
+}
+.header .logo img{
+	margin: 1px 50%;
+}
+.header .nav_left{
+	width: 75%;
+}
+.header .nav_right{
+	width: 14%;
+}
+.header li{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 30px;
+	color: darkgray;
+}
+.top-game-content{
+	width: 100%;
+	/*width: 1350px;*/
+	/*position: absolute;*/
+	margin-top:-2px;
+	left:2%;
+	min-width: 900px;
+	height:230px;
+	background: rgba(38,47,64,1);
+	
+}
+.tg-top{
+	width: 90%;
+	height:180px;
+	margin: 0 auto;
+	/*margin-left: -2%;*/
+}
+.tg-top-item{
+	width: 9%;
+	height:150px;
+	position: relative;
+	margin-right: 1%;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+.tg-ti-img{
+	margin-top: 30px;
+	height:65px;
+}
+.tg-top-item img{
+	margin: 0 auto;
+	width: 65px;
+}
+.tg-ti-p{
+	text-align: center;
+	font-size: 12px;
+	margin: 10px auto;
+}
+.tg-bottom{
+	width: 100%;
+	height:50px;
+	text-align: center;
+	background: rgba(25,32,43,1);
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.tg-bi{
+	margin-top: 10px;
+	margin-right: 15px;
+	display: inline-block;
+}
+.tg-bi .icon-img{
+	width: 22px;
+	margin-right: 4px;
+}
+.tg-bi:first-child .icon-img{
+	width: 17px;
+}
+/*竞技*/
+.top-compete-content{
+	width: 100%;
+	display: none;
+	/*width: 1350px;*/
+	/*position: absolute;*/
+	/*margin-top:40px;*/
+	margin-top:-2px;
+	left:2%;
+	min-width: 900px;
+	height:350px;
+	background: rgba(38,47,64,1);
+}
+.tc-top{
+	width: 65%;
+	height:300px;
+	margin: 0 auto;
+}
+.tc-top-item{
+		width: 200px;
+		margin: 0 auto;
+		display: inline-block;
+}
+.tc-ti-img{
+	margin-top: 20px;
+	height:200px;
+}
+.tc-top-item img{
+	margin: 0 auto;
+	width: 200px;
+}
+/*账户*/
+.top-user-content{
+	width: 320px;
+	display: none;
+	/*position: absolute;*/
+	/*margin-top:-2px;*/
+	padding-top: 40px;
+	margin-left:75%;
+	height:194px;
+
+}
+.top-user-content p{
+	list-style: none;
+	width: 100%;
+	height:50px;
+	/*padding-left: 20px;*/
+	/*padding-top: 15px;*/
+	/*font-size: 15px;*/
+	border: 1px solid gray;
+	border-bottom: none;
+	background: rgba(38,47,64,1);
+}
+.top-user-content p:first-child{
+	width: 100%;
+	height:90px;
+	padding: 0;
+	text-align: center;
+	/*border: 1px solid #00BFFF;*/
+}
+.top-user-content p:last-child{
+	border-bottom: 1px solid gray;
+	
+}
+.tu-btn button{
+	width: 260px;
+	height:50px;
+	margin-top: 20px;
+	background: rgba(0,123,198,.8);
+	border: 1px solid #00BFFF;
+	color: white;
+	font-size: 18px;
+}
+.top-user-content a{
+	line-height: 40px;
+	text-align: center;
+}
+.top-user-content .icon-img{
+	width: 20px;
+	margin-right: 5px;
+	margin-left: 20px;
+}
+
+
+
+
+/*  内容   */
+.container{
+	/*width: 1350px;*/
+	width: 100%;
+	max-width: 1700px;
+	min-width: 1200px;
+	height:3995px;
+	margin: 0 auto;
+	position: relative;
+	font-family: "微软雅黑";
+}
+.container .container1{
+	width: 100%;
+	min-width: 900px;
+	max-width: 1700px;
+	height:110px;
+}
+.container .video{
+	width: 100%;
+	max-width: 1700px;
+	min-width: 1200px;
+	overflow:hidden ;
+	position: absolute;
+	z-index: -99;
+	height:950px;
+	margin-top: -40px;
+}
+.video video{
+	min-width: 1200px;
+	height:950px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index: -99;
+}
+/*  内容导航栏    */
+.container-nav{
+	width: 92%;
+	height:70px;
+	max-width: 1700px;
+	/*background-color: rgba(28,17,13,0.9);*/
+	background-image: url(https://wow-site-assets.cnc.blzstatic.cn/static/components/SiteNav/sitenav-bar-bg.1fce1b9a3f4b7c90fb331726baa8c3ed.jpg);
+	margin: 40px auto;
+	font-weight: 1000;
+	position: relative;
+	z-index: 10;
+	font-family: "微软雅黑";
+	transition: all 0.5s;
+	
+}
+
+.container-nav .con-nav-logo{
+	width: 17%;
+	height:70px;
+	float: left;
+}
+.container-nav .con-nav-logo img{
+	margin-top:-22px;
+	margin-left: -30px;
+	width: 240px;
+	height:100px;
+	transition: all 0.5s;
+	
+}
+.container-nav .con-nav-left{
+	float: left;
+	width:33%;
+	display: inline-block;
+}
+.con-nav-left-item{
+	display: inline-block;
+	width: 10%;
+	height: 70px;
+	padding-left: 5px;
+	text-align: center;
+	border-left: 1px solid black;
+}
+.con-nav-left-item:first-child{
+	width: 12%;
+}
+.con-nav-left-last-item{
+	width: 45%;
+	border-right: 1px solid black;
+}
+.container-nav .con-nav-right{
+	float: right;
+	width: 25%;
+}
+.con-nav-right-item{
+	float: right;
+	width: 25%;
+	height:70px;
+	text-align: center;
+	display: inline-block;
+}
+.con-nav-right-item-search{
+	text-align: center;
+	border-left: 1px solid black;
+}
+.con-nav-right-item-search img{
+	vertical-align: midule;
+	width: 25px;
+}
+.con-nav-right-item-login{
+	width: 15%;
+	border-left: 1px solid black;
+}
+.con-nav-right-item-pay{
+	background: rgba(152,39,25,0.9);
+}
+.con-nav-right-item-tiyan{
+	background: rgba(98,31,17,0.9);
+}
+.container-nav .con-nav-left,.con-nav-right a{
+	line-height: 65px;
+	text-align: center;
+}
+.container-nav a{
+	color:goldenrod;
+}
+.container-nav a:hover{
+	color: white;
+}
+
+/*游戏*/
+.con-nav-game{
+	width: 92%;
+	height:370px;
+	background: black;
+	opacity: 0.9;
+	z-index: 2;
+	position:absolute;
+	margin-left: 4%;
+	margin-top: -40px;
+	display: none;
+	transition: all 0.5s;
+}
+.game{
+	display: inline-block;
+	width: 22%;
+	margin-right: 10px;	
+	margin-top: 30px;
+	vertical-align: top;
+}
+.game:first-child{
+	margin-left: 50px;
+}
+.game-ul li{
+	padding: 5px 0;
+}
+.game-ul li:first-child{
+	color: gainsboro;
+	width: 100%;
+	border-bottom: 1px solid darkslategrey;
+}
+.game-ul li a{
+	color: goldenrod;
+	list-style: none;
+}
+/*搜索*/
+.con-nav-search-content{
+	width: 92%;
+	height:340px;
+	background: black;
+	opacity: 0.9;
+	position: absolute;
+	z-index: 2;
+	margin-left: 4%;
+	margin-top: -40px;
+	display: none;
+	transition: all 0.5s;
+	
+}
+.cns-search{
+	width: 92%;
+	height: 50px;
+	margin: 30px auto;
+}
+.cns-search img{
+	width: 30px;
+	position: absolute;
+	z-index: 5;
+	margin: 10px;
+}
+.cns-search input{
+	width: 100%;
+	height:50px;
+	color: goldenrod;
+	opacity: 0.3;
+	padding-left: 55px;
+	font-size: 15px;
+	border: 1px solid darkgoldenrod;
+	background: rgba(14,9,5,1);
+	/*background-image: url(../img/搜索1.png);
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	background-position: 5px 5px;*/
+}
+.cns-search input:-ms-input-placeholder{
+	color: goldenrod;
+}
+.cns-search-item{
+	/*width: 92%;*/
+	height: 260px;
+}
+
+
+
+
+
+/*  页脚  */
+.footer{
+	width: 100%;
+	max-width: 1700px;
+	height:590px;
+	position: relative;
+	margin: 0 auto;
+	background-position: 50% 0%;
+}
+.footer-top{
+	width: 100%;
+	height:90px;
+	background-image: url(../img/底部.jpg);
+	background-size: 100%;
+	text-align: center;
+	vertical-align: midule;
+}
+.footer-top-con{
+	height:60px;
+	padding-top: 30px;
+	text-align: center;
+	vertical-align: midule;
+}
+.footer-top span{
+	color: white;
+	font-weight: 1000;
+}
+.footer-top a{
+	margin-left: 20px;
+	vertical-align: midule;
+}
+.footer-bottom{
+	width: 100%;
+	height:500px;
+	text-align: center;
+	color: gainsboro;
+	font-size: 12px;
+}
+.footer-bottom a,p{
+	color: lightslategrey;
+}
+.footer-logo{
+	margin-top: 60px;
+}
+.footer-ul{
+	list-style: none;
+	margin: 5px auto;
+}
+.footer-ul li{
+	display: inline-block;
+	margin: 0 10px;
+}
+#footer-ul1 li a{
+	font-size: 18px;
+}
+#footer-bs{
+	font-weight: 500;
+	color: gainsboro;
+}
+.footer-b a{
+	font-weight: 500;
+	color: gainsboro;
+}
+.footer-img{
+	height:40px;
+}
+.footer-img img{
+	height: 30px;
+	margin: 5px;
+}
+.fix-footer{
+	width: 100%;
+	height:80px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	background-image: url(https://wow-site-assets.cnc.blzstatic.cn/static/components/PersistentCta/footer_bg.ac936e4a461d8954a7ef1ffab3ea40d4.png);
+}
+.fix-footer-d{
+	display: inline-block;
+	width:100px;
+}
+.fix-footer-d1 p{
+	color: ghostwhite;
+	font-weight: 700;
+}
+.fix-footer-d2 a{
+	color: deepskyblue;
+	font-size: 19px;
+	font-weight: 700;
+}
+.fix-footer-d3{
+	
+	width: 220px;
+	height: 60px;
+	padding-top: 30px;
+	padding-left: 5px;
+	background-image: url(../img/btn2.png);
+	background-repeat: no-repeat;
+	background-position:0px -2px;
+}
+.fix-footer-d3 a{
+	color: ghostwhite;
+	font-size: 20px;
+	font-weight: 700;
+	position: relative;
+	z-index: 5;	
+}
+.fg{
+	position: absolute;
+	z-index: 1;
+	width: 142px;
+	height:50px;
+	margin-left: 39px;
+	margin-top: -10px;
+	border-bottom-left-radius: 95%;
+	border-top-left-radius: 75%;
+	border-bottom-right-radius: 95%;
+	border-top-right-radius: 75%;
+	opacity: 0.8;
+	overflow: hidden;
+}
+.fg img{
+	height: 50px;
+	width: auto;
+}
